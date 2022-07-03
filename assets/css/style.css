@@ -16,25 +16,34 @@
 }
 
 .text{
-    margin-left: 40%;
+    /* margin-left: 40%; */
     margin-top: 10%;
     text-transform: uppercase;
 }
 
 .btn{
-    margin-left: 40%;
+    text-align: center;
+    /* margin-left: 40%; */
     margin-top: 10%;
-    width: 100%;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+
 }
 
 .btn button{
     padding: 10px 10px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(98, 110, 181);
+    background-image: url("/assets/images/hinh-anh-bong-hoa-dep_024513073-1.jpg");
+    background-size: cover;
+    
     cursor: pointer;
     margin-right: 10%;
-    color: pink;
+    color: blue;
+
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .btn button:hover{
