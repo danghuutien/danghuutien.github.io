@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tranmyuyen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("/assets/images/hinh-anh-chibi-tinh-yeu.jpg");
+    background-size: cover;
+
+    /* position: relative; */
+}
+
+.text{
+    margin-left: 40%;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.btn button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(98, 110, 181);
+    cursor: pointer;
+    margin-right: 10%;
+    color: pink;
+}
+
+.btn button:hover{
+    color: #fff;
+    background-color: pink;
+}
+
