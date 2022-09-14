@@ -49,10 +49,13 @@
 .sticky {
     position: fixed;
     top: -10px;
+    right: 0;
+    left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: white;
+    z-index: 10000;
   }
   
 .sticky + .content {
