@@ -50,9 +50,12 @@
     position: fixed;
     top: -10px;
     width: 100%;
+    left: 0;
+    right: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: white;
+    z-index: 1000;
   }
   
 .sticky + .content {
